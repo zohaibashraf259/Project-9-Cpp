@@ -1,21 +1,23 @@
 # Project-9-Cpp
-#include <iostream>
-using namespace std;
+# 🔄 Swap Two Numbers (Without Temporary Variable)
 
-int main ()
-{
-    int a, b;
-    cout << "Enter first number (a): ";
-    cin >> a;
+This C++ program swaps the values of two integers **without using a third (temporary) variable**.
 
-    cout << "Enter second number (b): ";
-    cin >> b;
+Perfect for practicing logic building, arithmetic operations, and input/output in C++.
 
-    cout << "Before swap: a = " << a << " , b = " << b <<endl;
+---
 
-    a = a + b;
-    b = a - b;
-    a = a - b;
-    cout << "After swap: a = " << a << " , b = " << b <<endl;
-    return 0;
-}
+## 🚀 What It Does
+
+🔹 Prompts the user to enter two integers `a` and `b`  
+🔹 Swaps the values using arithmetic (`+` and `-`)  
+🔹 Displays the values before and after swapping
+
+---
+
+## 🖥️ Example Output
+
+Enter first number (a): 5
+Enter second number (b): 10
+Before swap: a = 5 , b = 10
+After swap: a = 10 , b = 5
